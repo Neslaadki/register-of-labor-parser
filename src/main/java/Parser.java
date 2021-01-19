@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Parser {
 
-    private static final int COUNT_PAGES_WITH_LINKS = 5;
+    private static final int COUNT_PAGES_WITH_LINKS = 526;
     private static final String FIRST_PART_PAGE_URL = "https://profstandart.rosmintrud.ru/obshchiy-informatsionnyy-blok/natsionalnyy-reestr-professionalnykh-standartov/reestr-trudovyh-funkcij/?PAGEN_1=";
     private static final String SECOND_PART_PAGE_URL = "&SIZEN_1=20";
 

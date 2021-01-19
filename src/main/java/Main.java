@@ -18,7 +18,7 @@ public class Main {
     // jdbc:postgresql://localhost:port/db-name
     private final static String URL = "jdbc:postgresql://localhost:5432/antondzubak";
     private final static String LOGIN = "antondzubak";
-    private final static String PASS = "Fyyf2001";
+    private final static String PASS = "";
     private final static String PATH_TO_FILE = "pages/registry_page/links.txt";
 
     public static void main(String[] args) throws IOException, InterruptedException {
