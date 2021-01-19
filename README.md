@@ -6,3 +6,4 @@
 4) Собрать файл (MAVEN) и запустить
 
 #### После запуска должна появиться статусная строка, показывающая прогресс:
+![Статусная строка](https://github.com/Neslaadki/professional_parser/blob/master/pages/screenshots/statusBar.png)
