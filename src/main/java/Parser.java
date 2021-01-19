@@ -25,6 +25,7 @@ public class Parser {
     }
 
     private static void initialLinks(){
+        DataBase dataBase = new DataBase();
         Document document;
         ProgressBar pb = new ProgressBar("Копирование ссылок на функции", COUNT_PAGES_WITH_LINKS);
         pb.start();
