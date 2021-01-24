@@ -19,22 +19,21 @@ public class Parser {
 
 
     public static void start() {
+        DataBase dataBase = new DataBase();
         initialLinks();
         parseLinks();
         System.out.println("Complete.");
     }
 
     private static void initialLinks(){
-        DataBase dataBase = new DataBase();
         Document document;
         ProgressBar pb = new ProgressBar("Копирование ссылок на функции", COUNT_PAGES_WITH_LINKS);
         pb.start();
-        pb.setExtraMessage("Страниц обработано");
 
         new File(Main.getPathToFile()).delete();
 
         try{
-            for (int i = 1; i <= COUNT_PAGES_WITH_LINKS + 1; i++) {
+            for (int i = 1; i <= COUNT_PAGES_WITH_LINKS; i++) {
                 document = Jsoup.parse(Downloader.readPageFromUrl(FIRST_PART_PAGE_URL + i + SECOND_PART_PAGE_URL),"UTF-8");
                 Elements links = document.select("a[href^=/obshchiy-informatsionnyy-blok/natsionalnyy-reestr-professionalnykh-standartov/reestr-trudovyh-funkcij/index.php?ELEMENT_ID=]");
                 Saver.saveInFile(links);
