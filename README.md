@@ -1,5 +1,4 @@
-### Скрипт осуществляет парсинг реестра трудовых функций и загрузку данных в БД
-#### [Ссылка на реестр](https://profstandart.rosmintrud.ru/obshchiy-informatsionnyy-blok/natsionalnyy-reestr-professionalnykh-standartov/reestr-trudovyh-funkcij)
+### Скрипт осуществляет парсинг [реестра трудовых функций](https://profstandart.rosmintrud.ru/obshchiy-informatsionnyy-blok/natsionalnyy-reestr-professionalnykh-standartov/reestr-trudovyh-funkcij) и загрузку описания каждоый функции в таблицу Базы Данных.
 #### Перед запуском необходимо произвести ряд действий в классе Main (src/main/java/Main)
 1) Изменить URL-адрес на адрес своей БД (переменная URL)
 2) Изменить логин учётной записи на свой (перменная LOGIN)
